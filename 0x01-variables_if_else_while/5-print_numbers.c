@@ -2,23 +2,21 @@
 
 
 /**
- * main - program that prints the alphabet in lowercase and upper case
+ * main - program that prints the are lesser than 10
+ * 
  *
  * Return: Always 0.
  */
 
 int main(void)
 {
-	char letter;
+int num;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-
-	{
-	if (letter != 'e' && letter != 'q')
-	putchar(letter);
-	}
-
-	putchar('\n');
-
-	return (0);
+while (num < 10)
+{
+printf("%d", num);
+num +=1;
+}
+printf("\n");
+return (0);
 }
