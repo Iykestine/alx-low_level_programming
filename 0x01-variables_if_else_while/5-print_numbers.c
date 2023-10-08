@@ -2,7 +2,6 @@
 
 /**
  * main - program that prints the are lesser than 10
- * 
  *
  * Return: Always 0.
  */
