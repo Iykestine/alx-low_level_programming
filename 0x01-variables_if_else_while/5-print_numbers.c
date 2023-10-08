@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 /**
  * main - program that prints the are lesser than 10
  * 
@@ -11,7 +10,6 @@
 int main(void)
 {
 int num;
-
 while (num < 10)
 {
 printf("%d", num);
